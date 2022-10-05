@@ -1,0 +1,149 @@
+button{
+    cursor: pointer;
+}
+.body2-containers1{
+    background: #FFFFFF;
+border: 1px solid #ECECEC;
+box-shadow: 0px 24px 64px rgba(101, 26, 163, 0.04);
+border-radius: 10px;
+width: 23%;
+padding-bottom: 20px;
+}
+
+.body2-containers1 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.body2-containers2{
+    margin: auto;
+    width: 86%;
+}
+.body2-containers2 h4{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: rgba(36, 34, 34, 0.9);
+margin-bottom: 0 ;
+
+}
+#body2-containers2-first-p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #919397;
+margin: 0;
+}
+
+#body2-containers2-second-p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: rgba(36, 34, 34, 0.9);
+
+}
+
+.body2-containers2-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body2-containers2-duration1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82px;
+}
+
+.body2-containers2-duration1 p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #0E2056;
+}
+
+.duration-p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #919397;
+}
+
+.body2-containers2-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body2-containers2-about-first-h4{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #232C7F;
+    margin: 0;
+}
+
+#body2-containers2-about-second-h4{
+margin: 0;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.2px;
+text-decoration-line: line-through;
+color: #FFAA00;
+
+}
+
+#body2-containers2-about-btn{
+    background: #232C7F;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+padding: 5px 20px;
+}
+
+.imgs{
+    position: relative;
+
+  }
+  
+  .h{
+    
+        position: absolute;
+        top: 100px;
+        right: 192px;
+        border: 1px solid #ffff;
+        border-radius: 13px;
+        width: 30px;
+   padding: 5px 0;
+   color: #FFFFFF;
+    box-sizing: border-box;
+    text-align: center;
+  }

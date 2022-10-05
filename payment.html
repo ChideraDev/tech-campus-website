@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Barlow:wght@500;600&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;600&family=Secular+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=The+Girl+Next+Door&family=Ubuntu:ital,wght@0,700;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/payment.css" />
+  <script src="https://kit.fontawesome.com/fb2d865850.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="payment-body">
+  <div class="payment-input">
+    <div class="payment-detail">
+      <div class="payment-details">
+        <h3 id="payment-price-h3">Payment Information</h3>
+
+        <div class="payment-detail-check">
+          <label>
+            <input type="radio" id="radio">
+            <span class="checkmark"></span> <img src="./images/Group 1576.png" />
+          </label>
+          <label>
+            <input type="radio" id="radio">
+            <span class="checkmark"></span> <img src="./images/Group 1575.png" />
+          </label>
+
+          <label id="label-radio">
+            <input type="radio" id="radio">
+            <span class="checkmark"></span> <img src="./images/Group 1577.png" id="pay-pal" />
+          </label>
+
+        </div><br>
+        <input type="text" id="cardName" name="cardName" placeholder="Name on Card"><br><br>
+        <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number"><br><br>
+        <div class="double-input">
+          <input type="text" id="date" name="date" placeholder="MM/YY">
+          <input type="text" id="securityCode" name="securityCode" placeholder="Security Code">
+        </div><br><br>
+        <div>
+          <input type="text" id="zipCode" name="zipCode" placeholder="Zip/Postal Code">
+        </div><br>
+        <label id="checkbox">
+          <input type="checkbox">
+          <span class="checkmark"></span> Remember this card
+        </label>
+      </div>
+
+
+    </div>
+    <div class="payment-price">
+      <div class="payment-prices">
+        <h3 id="payment-price-h3">Summary</h3>
+        <div class="payment-price1">
+          <p>Price:</p>
+          <p>N210,000</p>
+        </div>
+        <div id="payment-price-line"></div>
+        <div class="payment-price2">
+          <p>Total:</p>
+          <p>N210,000</p>
+        </div>
+
+
+        <p id="payment-price-details">Udemy is required by law to collect applicable transaction taxes for purchases
+          made in certain tax jurisdictions.</p>
+
+        <p id="payment-price-details"> By completing your purchase you agree to these <span id="payment-price-terms">
+            Terms of Service.</span></p>
+        <button>Complete Payment</button>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</body>
+
+<script src="" async defer></script>
+</body>
+
+</html>

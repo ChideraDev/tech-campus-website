@@ -1,0 +1,207 @@
+button{
+    cursor: pointer;
+}
+.payment-body{
+    background-image: url("../images/background_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.payment-input {
+   display: flex;
+   justify-content: space-between;
+    width: 910px;
+    margin: 154px auto 0 auto;
+    padding: 20px 0;
+}
+
+.payment-price{
+    background: #E4EEFB;
+    border-radius: 0px 10px 10px 0px;
+    width: 49%;
+    height: 500px;
+}
+
+#payment-price-h3{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #242222;    
+}
+
+#payment-price-line{
+    border: 0.5px solid #C9C9C9;
+}
+
+.payment-price1{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-price1 p{
+    margin: 0;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #242222;
+}
+
+
+.payment-price2{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-price2 p{
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #242222;
+}
+
+#payment-price-details{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 26px;
+letter-spacing: 0.2px;
+color: #919397;
+}
+.payment-prices{
+    margin: auto;
+    width: 78%;
+}
+
+
+#payment-price-terms{
+    color: #232C7F;
+}
+.payment-detail{
+    width: 50%;
+}
+.payment-details{
+    margin: auto;
+    width: 93%;
+}
+.payment-detail-check{
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+}
+button{
+    width: 345px;
+    height: 40px; 
+    text-align: center;
+    background-color: #232C7F;
+    color: #F5F5F5;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 76px;
+}
+#label-radio{
+    width: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#radio{
+    border: 1px solid #ADADAD;
+    width: 50px;
+}
+
+#pay-pal{
+    margin-top: 8px;
+}
+.double-input{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#cardName{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    padding-left: 10px;
+    color: #C7C7C7;
+    background-color: #F5F5F5;
+border-radius: 10px;
+}
+
+#cardNumber{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 10px; 
+    color: #C7C7C7;
+    background-color: #F5F5F5;
+}
+
+#securityCode{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 10px;
+    color: #C7C7C7;
+    background-color: #F5F5F5;
+}
+
+#date{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 10px;
+    color: #C7C7C7;
+    background-color: #F5F5F5;
+}
+
+#zipCode{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 10px; 
+    color: #C7C7C7;
+    background-color: #F5F5F5;
+}
+
+#checkbox{
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #242222;
+}
